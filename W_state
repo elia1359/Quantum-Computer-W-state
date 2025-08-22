@@ -4,6 +4,6 @@ import math
 def w_state(n):
   qc = QuantumCircuit(4)
 
-qc.ry(1 * math.acos(2 / math.sqrt)), 0)
+qc.ry(1 * math.acos(2 / math.sqrt(n), 0))
 
 for i in range(1, n)
